@@ -18,6 +18,7 @@
 		0547D68E2215EF6E007CB591 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0547D68D2215EF6E007CB591 /* Protocols.swift */; };
 		0547D6902216294F007CB591 /* MenuOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0547D68F2216294F007CB591 /* MenuOptionCell.swift */; };
 		0547D69222163513007CB591 /* MenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0547D69122163513007CB591 /* MenuOption.swift */; };
+		0556002F2225F44A000A0539 /* InboxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0556002E2225F44A000A0539 /* InboxController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		0547D68D2215EF6E007CB591 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		0547D68F2216294F007CB591 /* MenuOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionCell.swift; sourceTree = "<group>"; };
 		0547D69122163513007CB591 /* MenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOption.swift; sourceTree = "<group>"; };
+		0556002E2225F44A000A0539 /* InboxController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				0547D6872215DD79007CB591 /* ContainerController.swift */,
 				0547D6892215DD85007CB591 /* HomeController.swift */,
 				0547D68B2215DD8F007CB591 /* MenuController.swift */,
+				0556002E2225F44A000A0539 /* InboxController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				0547D69222163513007CB591 /* MenuOption.swift in Sources */,
 				0547D66D2215D872007CB591 /* AppDelegate.swift in Sources */,
 				0547D6752215D872007CB591 /* SlideMenuCode.xcdatamodeld in Sources */,
+				0556002F2225F44A000A0539 /* InboxController.swift in Sources */,
 				0547D6882215DD79007CB591 /* ContainerController.swift in Sources */,
 				0547D68E2215EF6E007CB591 /* Protocols.swift in Sources */,
 				0547D68C2215DD8F007CB591 /* MenuController.swift in Sources */,

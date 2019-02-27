@@ -56,7 +56,7 @@ extension MenuController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as! MenuOptionCell
-     
+        cell.selectionStyle = .none
         
         if let menuOption = MenuOption(rawValue: indexPath.row) {
             cell.descriptionLabel.text = menuOption.description
